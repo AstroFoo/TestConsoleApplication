@@ -11,11 +11,16 @@ std::string NewFunction()
 
 int main()
 {
+    // Declarations
+    int a, b, c;
+    a = 10;
+    b = 20;
+    c = 5;
 
-
-    std::cout << "Hello World, How are you?\n";
-
+    std::cout << "Hello World! How are you? I'm good thank you!\n";
     std::cout << NewFunction();
+    std::cout << "Thank you for running this program! \n";
+    std::cout << "Here's a number: " << a + b + c;
 }
 
 
