@@ -3,10 +3,21 @@
 
 #include <iostream>
 
+std::string NewFunction()
+{
+    std::string myString = "I wish I was a bird.\n";
+    return myString;
+}
+
 int main()
 {
+
+
     std::cout << "Hello World, How are you?\n";
+
+    std::cout << NewFunction();
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
