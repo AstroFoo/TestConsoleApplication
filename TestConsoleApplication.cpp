@@ -3,10 +3,26 @@
 
 #include <iostream>
 
+std::string NewFunction()
+{
+    std::string myString = "I wish I was a bird.\n";
+    return myString;
+}
+
 int main()
 {
-    std::cout << "Hello World, How are you?\n";
+    // Declarations
+    int a, b, c;
+    a = 10;
+    b = 20;
+    c = 5;
+
+    std::cout << "Hello World! How are you? I'm good thank you!\n";
+    std::cout << NewFunction();
+    std::cout << "Thank you for running this program! \n";
+    std::cout << "Here's a number: " << a + b + c;
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
